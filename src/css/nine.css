@@ -1,0 +1,54 @@
+
+/* Nine */
+
+
+.container:nth-child(2) .hour.nine,
+.container:nth-child(3) .hour.nine,
+.container:nth-child(4) .hour.nine,
+.container:nth-child(7) .hour.nine,
+.container:nth-child(11) .hour.nine,
+.container:nth-child(14) .hour.nine,
+.container:nth-child(15) .hour.nine,
+.container:nth-child(18) .hour.nine,
+.container:nth-child(19) .hour.nine,
+.container:nth-child(22) .hour.nine,
+.container:nth-child(23) .hour.nine,
+.container:nth-child(24) .hour.nine
+{
+    transform: rotate(90deg);
+}
+
+
+.container:nth-child(5) .hour.nine,
+.container:nth-child(9) .hour.nine,
+.container:nth-child(8) .hour.nine,
+.container:nth-child(10) .hour.nine,
+.container:nth-child(11) .minute.nine,
+.container:nth-child(12) .hour.nine,
+.container:nth-child(13) .hour.nine,
+.container:nth-child(16) .hour.nine,
+.container:nth-child(19) .minute.nine,
+.container:nth-child(20) .hour.nine,
+.container:nth-child(21) .hour.nine,
+.container:nth-child(24) .minute.nine
+{
+    transform: rotate(180deg);
+}
+
+
+.container:nth-child(1) .hour.nine,
+.container:nth-child(2) .minute.nine,
+.container:nth-child(3) .minute.nine,
+.container:nth-child(6) .hour.nine,
+.container:nth-child(10) .minute.nine,
+.container:nth-child(13) .minute.nine,
+.container:nth-child(14) .minute.nine,
+.container:nth-child(17) .minute.nine,
+.container:nth-child(18) .minute.nine,
+.container:nth-child(21) .minute.nine,
+.container:nth-child(22) .minute.nine,
+.container:nth-child(23) .minute.nine
+{
+    transform: rotate(270deg);
+}
+

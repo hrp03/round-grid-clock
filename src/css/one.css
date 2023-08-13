@@ -1,0 +1,48 @@
+
+/* One */
+
+.container:nth-child(2) .hour.one,
+.container:nth-child(3) .hour.one,
+.container:nth-child(6) .hour.one,
+.container:nth-child(18) .hour.one,
+.container:nth-child(22) .minute.one,
+.container:nth-child(23) .minute.one,
+.container:nth-child(24) .minute.one,
+.container:nth-child(20) .minute.one{
+    transform: rotate(90deg);
+}
+
+.container:nth-child(5) .minute.one,
+.container:nth-child(7) .hour.one,
+.container:nth-child(21) .hour.one,
+.container:nth-child(10) .minute.one,
+.container:nth-child(11) .minute.one,
+.container:nth-child(14) .minute.one,
+.container:nth-child(15) .minute.one,
+.container:nth-child(24) .hour.one,
+.container:nth-child(19) .hour.one,
+.container:nth-child(18) .minute.one
+{
+    transform: rotate(180deg);
+}
+
+.container:nth-child(1) .hour.one,
+.container:nth-child(2) .minute.one,
+.container:nth-child(5) .hour.one,
+.container:nth-child(17) .hour.one,
+.container:nth-child(21) .minute.one,
+.container:nth-child(22) .hour.one,
+.container:nth-child(23) .hour.one,
+.container:nth-child(19) .minute.one{
+    transform: rotate(270deg);
+}
+
+.grid.one .container:nth-child(4),
+.grid.one .container:nth-child(8),
+.grid.one .container:nth-child(12),
+.grid.one .container:nth-child(16),
+.grid.one .container:nth-child(9),
+.grid.one .container:nth-child(13)
+{
+    transform: rotate(45deg);
+}

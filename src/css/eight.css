@@ -1,0 +1,52 @@
+
+/* Eight */
+
+
+.container:nth-child(2) .hour.eight,
+.container:nth-child(3) .hour.eight,
+.container:nth-child(4) .hour.eight,
+.container:nth-child(7) .hour.eight,
+.container:nth-child(11) .hour.eight,
+.container:nth-child(15) .hour.eight,
+.container:nth-child(19) .hour.eight,
+.container:nth-child(22) .hour.eight,
+.container:nth-child(23) .hour.eight,
+.container:nth-child(24) .hour.eight
+{
+    transform: rotate(90deg);
+}
+
+
+.container:nth-child(5) .hour.eight,
+.container:nth-child(9) .hour.eight,
+.container:nth-child(13) .hour.eight,
+.container:nth-child(17) .hour.eight,
+.container:nth-child(8) .hour.eight,
+.container:nth-child(10) .hour.eight,
+.container:nth-child(11) .minute.eight,
+.container:nth-child(12) .hour.eight,
+.container:nth-child(16) .hour.eight,
+.container:nth-child(18) .hour.eight,
+.container:nth-child(19) .minute.eight,
+.container:nth-child(20) .hour.eight,
+.container:nth-child(21) .hour.eight,
+.container:nth-child(24) .minute.eight
+{
+    transform: rotate(180deg);
+}
+
+
+.container:nth-child(1) .hour.eight,
+.container:nth-child(2) .minute.eight,
+.container:nth-child(3) .minute.eight,
+.container:nth-child(6) .hour.eight,
+.container:nth-child(10) .minute.eight,
+.container:nth-child(14) .hour.eight,
+.container:nth-child(18) .minute.eight,
+.container:nth-child(21) .minute.eight,
+.container:nth-child(22) .minute.eight,
+.container:nth-child(23) .minute.eight
+{
+    transform: rotate(270deg);
+}
+
