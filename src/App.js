@@ -24,7 +24,7 @@ function App() {
   });
 
   let getTime = () => {
-    
+
     let value = [];
 
     let date = new Date();
@@ -32,28 +32,28 @@ function App() {
     let minute = date.getMinutes();
     let second = date.getSeconds();
 
-    if(hour.toString().length === 1){
+    if (hour.toString().length === 1) {
       value.push(numToString[0], numToString[hour]);
     }
     else {
       value.push(numToString[Math.floor(hour / 10)], numToString[hour % 10]);
     }
 
-    if(minute.toString().length === 1){
+    if (minute.toString().length === 1) {
       value.push(numToString[0], numToString[minute]);
     }
     else {
       value.push(numToString[Math.floor(minute / 10)], numToString[minute % 10]);
     }
 
-    if(second.toString().length === 1){
+    if (second.toString().length === 1) {
       value.push(numToString[0], numToString[second]);
     }
     else {
       value.push(numToString[Math.floor(second / 10)], numToString[second % 10]);
     }
 
-    setValue({time: value})
+    setValue({ time: value })
 
   };
 
